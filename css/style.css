@@ -1,4 +1,6 @@
-header{
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+ header{
 	width: 80%;
 	margin-left: auto;
     margin-right: auto;
@@ -7,4 +9,58 @@ header li{
 	display: inline-block;
 	list-style-type: none; 
 	margin-right: 50px;
+}
+ h3{
+ 	padding:10px;
+ }
+ 
+
+
+main{
+	margin-left: auto;
+    margin-right: auto;
+	/*display: flex; 
+	justify-content: center;
+	width: 85%;
+	align-items: center;*/
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+}
+
+
+
+#first{
+ 	
+	margin-right: 7px;
+}
+
+#second{
+ 
+	margin-right: 7px;
+}
+
+
+footer{
+	font-family: 'Poppins';
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+    font-size: 95%;
+}
+
+ @media screen and (max-width: 600px){
+	header li{
+	display: list-item;
+}
+	header ul{
+	margin-top: 0;
+}
+	main{
+		width: 320px;
+		height: auto;
+	}
+	 
 }
